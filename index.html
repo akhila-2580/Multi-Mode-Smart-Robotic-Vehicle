@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Multi Mode Smart Robotic Vehicle</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <div class="header">
+
+        <div class="event">
+            INNOVATEHER 2K26
+        </div>
+
+        <div class="team">
+            AKHILA & TEAM
+        </div>
+
+        <div class="project">
+            MULTI MODE
+            <br>
+            SMART ROBOTIC VEHICLE
+        </div>
+
+        <div class="robot">🤖</div>
+
+    </div>
+
+
+    <div class="connection-card">
+
+        <div id="status">
+            Bluetooth: Disconnected
+        </div>
+
+        <button id="connectBtn" class="connect-btn">
+            🔵 CONNECT HC-05
+        </button>
+
+    </div>
+
+
+    <div class="section-title">
+        CONTROL MODES
+    </div>
+
+
+    <div class="mode">
+
+        <button id="manualMode" class="mode-btn">
+            <span>🎮</span>
+            <small>MANUAL</small>
+        </button>
+
+        <button id="autoMode" class="mode-btn">
+            <span>🤖</span>
+            <small>AUTO</small>
+        </button>
+
+        <button id="voiceMode" class="mode-btn">
+            <span>🎤</span>
+            <small>VOICE</small>
+        </button>
+
+        <button id="gestureMode" class="mode-btn">
+            <span>📱</span>
+            <small>GESTURE</small>
+        </button>
+
+        <button id="followMode" class="mode-btn full">
+            <span>👤</span>
+            <small>HUMAN FOLLOW</small>
+        </button>
+
+    </div>
+
+
+    <div class="section-title">
+        LIGHT CONTROL
+    </div>
+
+
+    <div class="lights">
+
+        <button id="headlightOn">
+            💡 HEADLIGHTS ON
+        </button>
+
+        <button id="headlightOff">
+            🌙 HEADLIGHTS OFF
+        </button>
+
+    </div>
+
+
+    <div id="voiceControls" class="info-card">
+
+        <div class="info-title">
+            🎤 VOICE CONTROL
+        </div>
+
+        <button id="micButton">
+            🎙 SPEAK
+        </button>
+
+        <p id="voiceText">
+            Say: Forward, Backward, Left, Right or Stop
+        </p>
+
+    </div>
+
+
+    <div class="gestureInfo info-card">
+
+        <div class="info-title">
+            📱 GESTURE CONTROL
+        </div>
+
+        <p>Tilt Forward → Forward</p>
+        <p>Tilt Backward → Backward</p>
+        <p>Tilt Left → Left</p>
+        <p>Tilt Right → Right</p>
+        <p>Keep phone steady → Stop</p>
+
+    </div>
+
+
+    <div id="followInfo" class="info-card">
+
+        <div class="info-title">
+            👤 HUMAN FOLLOW
+        </div>
+
+        <p>Ultrasonic sensor detects the person.</p>
+        <p>Distance &gt; 12 cm → Forward</p>
+        <p>10–12 cm → Stop</p>
+        <p>Distance &lt; 10 cm → Backward</p>
+
+    </div>
+
+
+    <div class="section-title">
+        MANUAL CONTROL
+    </div>
+
+
+    <div class="controls">
+
+        <button class="control" id="forward">
+            ▲
+        </button>
+
+        <div>
+
+            <button class="control" id="left">
+                ◀
+            </button>
+
+            <button class="control stop" id="stop">
+                ■
+            </button>
+
+            <button class="control" id="right">
+                ▶
+            </button>
+
+        </div>
+
+        <button class="control" id="backward">
+            ▼
+        </button>
+
+    </div>
+
+
+    <div class="footer">
+
+        <div>INNOVATEHER 2K26</div>
+
+        <div>AKHILA & TEAM</div>
+
+        <div class="footer-project">
+            MULTI MODE SMART ROBOTIC VEHICLE
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
